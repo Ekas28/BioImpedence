@@ -1,0 +1,12 @@
+open vs code 
+open a new folder where you want to store your project 
+run in terminal in vs code
+python -m venv venv
+venv\Scripts\Activate   
+python -m pip install --upgrade pip
+pip install pandas scikit-learn joblib fastapi uvicorn streamlit requests
+uvicorn app_fastapi:app --reload --port 8000
+    http://127.0.0.1:8000/docs
+    type this as url
+In split terminal window
+    streamlit run dashboard_streamlit.py
