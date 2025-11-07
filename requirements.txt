@@ -1,7 +1,15 @@
-streamlit
+# Core Python Libraries
+pandas
+scikit-learn
+joblib
+requests
+
+# FastAPI and Uvicorn for backend API
 fastapi
 uvicorn
-pandas
-numpy
-scikit-learn
-matplotlib
+
+# Streamlit for frontend dashboard
+streamlit
+
+# (Optional) Upgrade pip when setting up
+# python -m pip install --upgrade pip
