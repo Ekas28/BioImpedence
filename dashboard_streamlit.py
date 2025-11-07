@@ -73,7 +73,8 @@ with col1:
                 "impedance_ohm": avg_impedance,
                 "phase_deg": avg_phase
             }
-            res = requests.post("https://bioimpedence.onrender.com/infer", json=payload)
+            API_URL = "https://bioimpedence.onrender.com/infer"
+            res = requests.post(API_URL, json=payload)
 
             if res.status_code == 200:
                 result = res.json()
